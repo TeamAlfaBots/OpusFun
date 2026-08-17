@@ -1,0 +1,188 @@
+{
+  "start": {
+    "text": "Hey {user}! 👋\n\nI am <b>{bot_name}</b> 🤖\n\n<i>Your fun companion for groups!</i>\n\nAdd me to your group and bring it to life with random GIF reactions, playful commands, couple matching and a whole lot of chaos. 🎉\n\n<b>What I can do</b>\n├ 🎭 14 GIF reaction commands\n├ 💞 Couple of the moment\n├ 🎲 A fresh random GIF every single time\n└ ⚡ Fast, async and always awake\n\n<blockquote>Tap <b>Help</b> below to see everything I know.</blockquote>"
+  },
+  "buttons": {
+    "support": "Support",
+    "update": "Update",
+    "help": "Help",
+    "owner": "Owner",
+    "developer": "Developer",
+    "fun": "Fun Commands",
+    "owner_commands": "Owner",
+    "back": "Back",
+    "close": "Close",
+    "add_to_group": "Add me to your group"
+  },
+  "help": {
+    "text": "🤖 <b>{bot_name} — Help</b>\n\n<b>🎉 Fun Commands</b>\n<blockquote>{fun_commands}</blockquote>\n\n<b>👑 Owner Commands</b>\n<blockquote>/broadcast\n/stats\n/cleanup</blockquote>\n\n<i>Most reaction commands work by replying to someone's message.</i>\n\nUse the buttons below for details. 💫",
+    "fun_section": "🎉 <b>Fun Commands</b>\n\n{commands}\n\n<i>Reply to someone and fire away!</i> 💫",
+    "owner_section": "👑 <b>Owner Commands</b>\n\n• /broadcast — reply to any message to send it everywhere\n  <code>-u</code> users only · <code>-g</code> groups only · <code>-f</code> forward · <code>-p</code> pin\n• /stats — users and groups overview\n• /cleanup — inactive record report\n\n<b>Current reach</b>\n├ 👤 Users: <b>{users}</b>\n└ 👥 Groups: <b>{groups}</b>",
+    "closed": "Closed. Send /help any time. 💫",
+    "couple_desc": "match two random members for fun",
+    "desc": {
+      "slap": "give someone a playful slap",
+      "hug": "send a warm hug",
+      "dance": "start a dance party",
+      "marriage": "throw a fun wedding",
+      "kill": "a cartoonish, harmless takedown",
+      "beep": "dramatic crying mode",
+      "laughing": "laugh out loud",
+      "perpose": "propose in style",
+      "sleeping": "time for a nap",
+      "goodnight": "wish someone sweet dreams",
+      "goodmorning": "a bright good morning",
+      "welcome": "welcome someone to the group",
+      "prank": "pull a silly prank",
+      "fight": "a playful cartoon showdown",
+      "kick": "a comedic boot out of the chat"
+    }
+  },
+  "reactions": {
+    "slap": [
+      "{user1} slapped {user2}! 😂",
+      "{user1} gave {user2} a cartoon-grade slap! 🖐️💥",
+      "Ouch! {user2} just got slapped by {user1}. 😹",
+      "{user1} → 🖐️ → {user2}. Justice served! ✨"
+    ],
+    "hug": [
+      "{user1} hugged {user2}! 🤗",
+      "{user1} wrapped {user2} in a huge warm hug! 💞",
+      "Aww! {user2} is getting squeezed by {user1}. 🫂",
+      "Free hugs from {user1} to {user2}! 🤍"
+    ],
+    "dance": [
+      "{user1} pulled {user2} onto the dance floor! 💃🕺",
+      "{user1} and {user2} are dancing like nobody's watching! 🎶",
+      "Dance battle: {user1} vs {user2}! Who wins? 🪩"
+    ],
+    "dance_solo": [
+      "{user} hit the dance floor solo! 💃🎶",
+      "{user} is dancing like nobody's watching! 🕺✨"
+    ],
+    "marriage": [
+      "💍 {user1} and {user2} just got fictionally married! 🎊",
+      "Wedding bells! 🔔 {user1} ❤️ {user2}. Congratulations! 💒",
+      "💐 {user1} said yes to {user2}! Cake for everyone! 🍰"
+    ],
+    "kill": [
+      "{user1} defeated {user2} in the most cartoonish way possible! 💫⭐",
+      "Boom! {user2} has been bonked out of the chat by {user1}. 🌟",
+      "{user2} got comically eliminated by {user1}. Respawning in 3… 2… 1… 🎮"
+    ],
+    "beep": [
+      "{user1} is crying dramatically because of {user2}! 😭",
+      "{user1} started a full rona session over {user2}. 🥲💧",
+      "Tissues please! {user1} is sobbing at {user2}. 😢"
+    ],
+    "beep_solo": [
+      "{user} is crying dramatically! 😭 Someone bring tissues.",
+      "{user} started a rona session. 🥲💧"
+    ],
+    "laughing": [
+      "{user1} is laughing out loud at {user2}! 😂",
+      "{user1} can't stop giggling because of {user2}! 🤣",
+      "ROFL! {user1} lost it at {user2}. 😹"
+    ],
+    "laughing_solo": [
+      "{user} burst out laughing! 😂",
+      "{user} is rolling on the floor laughing! 🤣"
+    ],
+    "perpose": [
+      "💐 {user1} is proposing to {user2}! Say yes! 💍",
+      "On one knee! {user1} just proposed to {user2}. 😍",
+      "{user1} → 💍 → {user2}. The chat is holding its breath! 💞"
+    ],
+    "sleeping": [
+      "{user1} fell asleep on {user2}'s shoulder. 😴",
+      "Shhh… {user1} is napping next to {user2}. 💤"
+    ],
+    "sleeping_solo": [
+      "{user} is fast asleep. 😴💤",
+      "{user} went into sleep mode. Do not disturb. 🌙"
+    ],
+    "goodnight": [
+      "{user1} wishes {user2} a very good night! 🌙✨",
+      "Sweet dreams {user2}, from {user1}. 😴💤"
+    ],
+    "goodnight_solo": [
+      "Good night {user}! Sleep tight. 🌙💤",
+      "{user} is off to dreamland. Good night! ✨"
+    ],
+    "goodmorning": [
+      "{user1} wishes {user2} a beautiful good morning! 🌅",
+      "Rise and shine {user2}! {user1} says good morning. ☀️"
+    ],
+    "goodmorning_solo": [
+      "Good morning {user}! ☀️ Have an amazing day.",
+      "Rise and shine, {user}! 🌅"
+    ],
+    "welcome": [
+      "👋 Welcome {user}! Make yourself at home. 🎉",
+      "A wild {user} appeared! Welcome aboard. 🌟",
+      "Everyone say hi to {user}! 🎊"
+    ],
+    "welcome_solo": [
+      "👋 Welcome to the group, {user}! 🎉"
+    ],
+    "prank": [
+      "🃏 {user1} pranked {user2}! Gotcha! 😆",
+      "{user1} just pulled a silly prank on {user2}. 🤡",
+      "Prank successful! {user2} totally fell for {user1}'s trick. 😹"
+    ],
+    "fight": [
+      "🥊 {user1} challenged {user2} to a playful showdown!",
+      "Ding ding! {user1} vs {user2} — cartoon rules only. 💥",
+      "{user1} and {user2} are having an epic pillow fight! 🛏️💫"
+    ],
+    "kick": [
+      "🦵 {user1} comically booted {user2} across the screen! 💫",
+      "{user1} yeeted {user2} into the sky! 🚀 (they'll be back)",
+      "Whoosh! {user2} was punted away by {user1}. 😂"
+    ],
+    "self_target": [
+      "{user}, doing that to yourself is a bit lonely. Reply to someone else! 😅",
+      "{user} tried it on themselves. That's not how this works. 😂"
+    ],
+    "bot_target": [
+      "Nice try {user}, but I'm immune. 🤖✨",
+      "{user}, you can't do that to me — I'm the one holding the GIFs! 😎"
+    ]
+  },
+  "couple": {
+    "announcement": "💞 <b>Couple of the Moment</b> 💞\n\n<i>Today's perfect match is…</i>\n\n❤️ {user1}\n       ➕\n❤️ {user2}\n\n🎉 <b>Congratulations!</b> 🎉\n\n<blockquote>Randomly picked by {bot_name} — purely for fun, no feelings involved. 😄</blockquote>",
+    "repeat_note": "⏳ A new couple can be drawn in <b>{remaining}</b>.",
+    "cooldown": "⏳ <b>Couple can be used again in {remaining}.</b>\n\nGood things take time! 💫",
+    "not_enough_members": "😅 I need at least <b>2 active members</b> here to make a couple.\n\nMake sure I can see the member list (admin rights help) and let a few people chat first!"
+  },
+  "broadcast": {
+    "no_reply": "📢 <b>Reply to the message you want to broadcast.</b>\n\nWorks with text, photos, videos, GIFs, documents, audio and more.\n\n<b>Flags</b>\n<code>-u</code> users only · <code>-g</code> groups only · <code>-f</code> forward · <code>-p</code> pin",
+    "already_running": "⚠️ A broadcast is already running. Please wait for it to finish.",
+    "no_targets": "🫙 There is nothing to broadcast to yet — no users or groups are registered.",
+    "started": "📢 <b>Broadcast started…</b>\n\nDestinations: <b>{total}</b>",
+    "progress": "📢 <b>Broadcasting…</b>\n\n⏳ Progress: <b>{done}</b> / <b>{total}</b>\n✅ Sent: <b>{success}</b>\n❌ Failed: <b>{failed}</b>",
+    "completed": "📢 <b>Broadcast Completed</b>\n\n✅ Successful: <b>{success}</b>\n❌ Failed: <b>{failed}</b>\n⏭ Skipped: <b>{skipped}</b>\n\n📊 Total: <b>{total}</b>\n🌊 Flood waits: <b>{flood_waits}</b>\n⏱ Duration: <b>{elapsed}</b>",
+    "cleanup": "🧹 <b>Database Overview</b>\n\n👤 <b>Users</b>\n├ Total: <b>{users}</b>\n├ Reachable: <b>{active_users}</b>\n└ Unreachable: <b>{dead_users}</b>\n\n👥 <b>Groups</b>\n├ Total: <b>{groups}</b>\n├ Reachable: <b>{active_groups}</b>\n└ Unreachable: <b>{dead_groups}</b>\n\n<i>Unreachable records are skipped automatically.</i>"
+  },
+  "system": {
+    "started": "✅ <b>{bot_name}</b> is online as @{username}.",
+    "added_to_group": "👋 Thanks for adding me to <b>{chat}</b>!\n\nI'm <b>{bot_name}</b> — send /help to see what I can do. 🎉",
+    "pinging": "🏓 Pinging…",
+    "pong": "🏓 <b>Pong!</b>\n\n⚡ Latency: <b>{latency} ms</b>\n⏱ Uptime: <b>{uptime}</b>\n🗄 Database: {database}\n🤖 Bot: <b>{bot_name}</b>",
+    "db_ok": "<b>connected</b> ✅",
+    "db_down": "<b>unreachable</b> ⚠️",
+    "stats": "📊 <b>{bot_name} — Statistics</b>\n\n👤 <b>Users</b>\n├ Total: <b>{users}</b>\n└ Active: <b>{active_users}</b>\n\n👥 <b>Groups</b>\n├ Total: <b>{groups}</b>\n└ Active: <b>{active_groups}</b>\n\n⏱ Uptime: <b>{uptime}</b>"
+  },
+  "errors": {
+    "no_reply": "💫 <b>Reply to someone's message and use this command.</b>",
+    "group_only": "👥 This command only works in <b>groups</b>.\n\nAdd me to a group and try again!",
+    "private_only": "📩 Please use this command in my <b>private chat</b>.",
+    "owner_only": "🔒 This command is reserved for my <b>owners</b>.",
+    "owner_only_short": "🔒 Owners only.",
+    "too_fast": "🐢 Slow down! Try again in {seconds}s.",
+    "no_media_hint": "No GIFs are installed for this command yet — add some files to the matching assist/ folder.",
+    "telegram": "⚠️ Telegram returned an error. Please try again in a moment.",
+    "generic": "⚠️ Something went wrong. The issue has been logged — please try again.",
+    "database": "🗄 The database is temporarily unavailable. Please try again shortly."
+  }
+}
