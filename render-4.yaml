@@ -1,0 +1,61 @@
+services:
+  - type: worker
+    name: opusfun
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    region: oregon
+    autoDeployTrigger: commit
+    envVars:
+      # --- Telegram credentials (required, set manually in dashboard) -----
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+
+      # --- Database (required, set manually in dashboard) -----------------
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB_NAME
+        value: opusfun
+
+      # --- Owners (required, set manually in dashboard) --------------------
+      - key: OWNER_IDS
+        sync: false
+
+      # --- Branding ---------------------------------------------------------
+      - key: BOT_NAME
+        value: OpusFun
+      - key: START_IMG_URL
+        value: ""
+      - key: SUPPORT_URL
+        value: https://t.me/your_support_chat
+      - key: UPDATE_URL
+        value: https://t.me/your_update_channel
+      - key: OWNER_URL
+        value: https://t.me/your_username
+      - key: DEVELOPER_URL
+        value: https://t.me/your_username
+
+      # --- Behaviour tuning ---------------------------------------------
+      - key: COUPLE_COOLDOWN_HOURS
+        value: "6"
+      - key: BROADCAST_CONCURRENCY
+        value: "8"
+      - key: BROADCAST_SLEEP
+        value: "0.15"
+      - key: MEDIA_CACHE_TTL
+        value: "300"
+      - key: WORKERS
+        value: "8"
+      - key: DEFAULT_LANGUAGE
+        value: en
+
+      # --- Logging ---------------------------------------------------------
+      - key: LOG_LEVEL
+        value: INFO
+      - key: LOG_FILE
+        value: opusfun.log
