@@ -1,0 +1,14 @@
+# OpusFun — runtime dependencies
+# Python 3.11+ required
+
+# Telegram MTProto framework (Pyrogram fork with active Bot API support)
+pyrofork>=2.3.69,<3.0.0
+
+# Fast MTProto encryption (large speed-up for media uploads/downloads)
+TgCrypto>=1.2.5,<2.0.0
+
+# Async MongoDB driver (pulls in pymongo)
+motor>=3.6.0,<4.0.0
+
+# .env loading for local development and VPS deployments
+python-dotenv>=1.0.1,<2.0.0
