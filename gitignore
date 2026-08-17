@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+
+# Logs
+*.log
+opusfun.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Pyrofork session files (contain auth data)
+*.session
+*.session-journal
+
+# OS
+.DS_Store
+
